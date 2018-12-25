@@ -1,0 +1,9 @@
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\bin\Release\SetDDC.exe.config
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\bin\Release\SetDDC.exe
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\bin\Release\SetDDC.pdb
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.Form1.resources
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.Properties.Resources.resources
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.csproj.GenerateResource.cache
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.csproj.CoreCompileInputs.cache
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.exe
+C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.pdb
