@@ -7,3 +7,13 @@ C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.csproj.Generat
 C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.csproj.CoreCompileInputs.cache
 C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.exe
 C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.pdb
+D:\GitHub\SetDDC\SetDDC\bin\Release\SetDDC.exe.config
+D:\GitHub\SetDDC\SetDDC\bin\Release\SetDDC.exe
+D:\GitHub\SetDDC\SetDDC\bin\Release\SetDDC.pdb
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.csprojAssemblyReference.cache
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.Form1.resources
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.Properties.Resources.resources
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.csproj.GenerateResource.cache
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.csproj.CoreCompileInputs.cache
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.exe
+D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.pdb

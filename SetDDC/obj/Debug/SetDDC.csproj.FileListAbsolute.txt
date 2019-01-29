@@ -7,3 +7,12 @@ C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.CoreCompi
 C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.exe
 C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.pdb
 C:\Users\simsa\Downloads\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.Form1.resources
+D:\GitHub\SetDDC\SetDDC\bin\Debug\SetDDC.exe.config
+D:\GitHub\SetDDC\SetDDC\bin\Debug\SetDDC.exe
+D:\GitHub\SetDDC\SetDDC\bin\Debug\SetDDC.pdb
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.Form1.resources
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.Properties.Resources.resources
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.GenerateResource.cache
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.CoreCompileInputs.cache
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.exe
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.pdb

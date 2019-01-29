@@ -22,16 +22,24 @@ namespace SetDDC
         {
             // Initial Load -=- read the current DDC envionroment path if it exists
             
-            IDictionary environmentVariables = Environment.GetEnvironmentVariables();
+            IDictionary environmentVariables = System.Environment.GetEnvironmentVariables();
             foreach (DictionaryEntry de in environmentVariables)
             {
                
-                richTextBox1.Text += Environment.NewLine + "environmentVariable";
+                richTextBox1.Text += Environment.NewLine + "Key: " + de.Key + " Value: " + de.Value;
 
             }
 
               
          
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string strCmdText = ("SystemPropertiesAdvanced.exe");
+            System.Diagnostics.Process.Start(strCmdText);
+            
+            
         }
     }
     
