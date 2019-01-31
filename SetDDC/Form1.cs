@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +18,15 @@ namespace SetDDC
             InitializeComponent();
         }
 
+        PrivateFontCollection privateFontCollection = new PrivateFontCollection();
 
+        
+
+
+
+        public string envName = ("UE-SharedDataCachePath");
+        public string envValue = (@"Z:\training\UnrealEngine\GeneralDDC");
+        public bool hasENV = false;
 
 
         //startup
@@ -26,9 +34,9 @@ namespace SetDDC
         {
             richTextBox1.Clear();
             richTextBox1.Focus();
-            richTextBox1.Text += "Started...";
-            richTextBox1.Text += Environment.NewLine + "Choose wisely";
-
+            richTextBox1.Text += "Startup";
+            richTextBox1.Text += Environment.NewLine + "Reading environment variables...";
+            ReadEnv();
 
         }
 
@@ -36,7 +44,7 @@ namespace SetDDC
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // set local ddc (removes any ue4 varialbes
+            // set local ddc (removes any ue4 varialbes)
 
         }
 
@@ -45,6 +53,7 @@ namespace SetDDC
             // set shared ddc
             //should prompt for DDC location
 
+            Environment.SetEnvironmentVariable(envName, envValue);
 
 
 
@@ -99,6 +108,7 @@ namespace SetDDC
                     richTextBox1.Text += Environment.NewLine + "Key: " + de.Key;
                     richTextBox1.Text += Environment.NewLine + "Value: " + de.Value;
                     Console.WriteLine("End of entry");
+                    hasENV = true;
                 }
                 else
                 {

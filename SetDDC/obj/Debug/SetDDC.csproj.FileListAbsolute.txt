@@ -17,3 +17,4 @@ D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.CoreCompileInputs.cache
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.exe
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.pdb
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csprojAssemblyReference.cache
+D:\GitHub\SetDDC\SetDDC\bin\Debug\Resources\Roboto-Regular.ttf

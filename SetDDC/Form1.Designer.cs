@@ -73,7 +73,7 @@
             this.button2_SetSharedDDC.Name = "button2_SetSharedDDC";
             this.button2_SetSharedDDC.Size = new System.Drawing.Size(151, 41);
             this.button2_SetSharedDDC.TabIndex = 2;
-            this.button2_SetSharedDDC.Text = "Set Shared DDC";
+            this.button2_SetSharedDDC.Text = "Use Shared DDC";
             this.button2_SetSharedDDC.UseVisualStyleBackColor = true;
             this.button2_SetSharedDDC.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -86,7 +86,7 @@
             this.button3_SetLocalDDC.Name = "button3_SetLocalDDC";
             this.button3_SetLocalDDC.Size = new System.Drawing.Size(151, 41);
             this.button3_SetLocalDDC.TabIndex = 3;
-            this.button3_SetLocalDDC.Text = "Use Local DDC";
+            this.button3_SetLocalDDC.Text = "Use Project DDC";
             this.button3_SetLocalDDC.UseVisualStyleBackColor = true;
             this.button3_SetLocalDDC.Click += new System.EventHandler(this.button3_Click);
             // 
