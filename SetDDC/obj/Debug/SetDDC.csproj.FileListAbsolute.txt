@@ -16,3 +16,4 @@ D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.GenerateResource.cache
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.CoreCompileInputs.cache
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.exe
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.pdb
+D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csprojAssemblyReference.cache
