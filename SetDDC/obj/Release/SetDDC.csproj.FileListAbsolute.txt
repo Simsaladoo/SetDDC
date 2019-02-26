@@ -17,3 +17,13 @@ D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.csproj.CoreCompileInputs.cache
 D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.exe
 D:\GitHub\SetDDC\SetDDC\obj\Release\SetDDC.pdb
 D:\GitHub\SetDDC\SetDDC\bin\Release\Resources\Roboto-Regular.ttf
+D:\Reposit\SetDDC\SetDDC\bin\Release\Resources\Roboto-Regular.ttf
+D:\Reposit\SetDDC\SetDDC\bin\Release\SetDDC.exe.config
+D:\Reposit\SetDDC\SetDDC\bin\Release\SetDDC.exe
+D:\Reposit\SetDDC\SetDDC\bin\Release\SetDDC.pdb
+D:\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.Form1.resources
+D:\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.Properties.Resources.resources
+D:\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.csproj.GenerateResource.cache
+D:\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.csproj.CoreCompileInputs.cache
+D:\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.exe
+D:\Reposit\SetDDC\SetDDC\obj\Release\SetDDC.pdb

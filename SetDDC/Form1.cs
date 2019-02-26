@@ -45,6 +45,19 @@ namespace SetDDC
         private void button3_Click(object sender, EventArgs e)
         {
             // set local ddc (removes any ue4 varialbes)
+            if (hasENV == true)
+            {
+                Environment.SetEnvironmentVariable(envName, null, EnvironmentVariableTarget.Machine);
+                richTextBox1.Text += Environment.NewLine + "Environment Variable for Unreal Removed!";
+            }
+
+            else
+            {
+                // do nothing
+                richTextBox1.Text += Environment.NewLine + "No valid Environment Variables to remove";
+            }
+            
+
 
         }
 
@@ -53,7 +66,11 @@ namespace SetDDC
             // set shared ddc
             //should prompt for DDC location
 
-            Environment.SetEnvironmentVariable(envName, envValue);
+            Environment.SetEnvironmentVariable(envName, envValue, EnvironmentVariableTarget.Machine);
+            richTextBox1.Text += Environment.NewLine + "UE-SharedDataCachePath Environment Variable set!";
+            ReadEnv();
+
+
 
 
 
@@ -71,10 +88,11 @@ namespace SetDDC
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // refresh? i dunno
+            // refresh to clear the text box
             richTextBox1.Clear();
             richTextBox1.Focus();
-            richTextBox1.Text += "Refreshed...";
+            richTextBox1.Text += "Refreshing";
+            RestartApp();
 
         }
 
@@ -92,7 +110,7 @@ namespace SetDDC
 
 
         // Reads back all the current varialbes
-        public void ReadEnv ()
+        public void ReadEnv()
         {
             // Initial Load -=- read the current DDC envionroment path if it exists
 
@@ -104,7 +122,6 @@ namespace SetDDC
                 string UE4CheckValue = de.Key.ToString();
                 if (UE4CheckValue == "UE-SharedDataCachePath")
                 {
-                    richTextBox1.Text += Environment.NewLine + "Found an Unreal DDC environment:";
                     richTextBox1.Text += Environment.NewLine + "Key: " + de.Key;
                     richTextBox1.Text += Environment.NewLine + "Value: " + de.Value;
                     Console.WriteLine("End of entry");
@@ -112,15 +129,37 @@ namespace SetDDC
                 }
                 else
                 {
-                    //richTextBox1.Text += Environment.NewLine + "Key: " + de.Key + " Value: " + de.Value;
-                    Console.WriteLine("End of entry");
+                    //for every other entry that does NOT equal UE-SharedDataCachePath -- do nothing
                 }
 
             }
+
+            if (hasENV == true)
+            {
+                richTextBox1.Text += Environment.NewLine + "Found an Unreal DDC environment";
+            }
+
+            if (hasENV == false)
+            {
+                richTextBox1.Text += Environment.NewLine + "No Unreal Environment Variables found!";
+            }
+
+            Console.WriteLine("Finished Operation");
+
         }
 
 
-        
+
+
+        public void RestartApp()
+        {
+            //System.Diagnostics.Process.Start(Application.ExecutablePath); // to start new instance of application
+            //this.Close(); //to turn off current app
+
+            Application.Restart();
+            Environment.Exit(0);
+        }
+
     }
     
 }

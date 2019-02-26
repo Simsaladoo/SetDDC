@@ -18,3 +18,13 @@ D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.exe
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.pdb
 D:\GitHub\SetDDC\SetDDC\obj\Debug\SetDDC.csprojAssemblyReference.cache
 D:\GitHub\SetDDC\SetDDC\bin\Debug\Resources\Roboto-Regular.ttf
+D:\Reposit\SetDDC\SetDDC\bin\Debug\Resources\Roboto-Regular.ttf
+D:\Reposit\SetDDC\SetDDC\bin\Debug\SetDDC.exe.config
+D:\Reposit\SetDDC\SetDDC\bin\Debug\SetDDC.exe
+D:\Reposit\SetDDC\SetDDC\bin\Debug\SetDDC.pdb
+D:\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.Form1.resources
+D:\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.Properties.Resources.resources
+D:\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.GenerateResource.cache
+D:\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.csproj.CoreCompileInputs.cache
+D:\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.exe
+D:\Reposit\SetDDC\SetDDC\obj\Debug\SetDDC.pdb
